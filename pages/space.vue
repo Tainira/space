@@ -2,9 +2,12 @@
   <div class="container">
     <SpaceMenu />
     <ContactUs />
-    <h1>A Space Exploration Startup</h1>
+    <template v-if="true">
+      <h1>A Space Exploration Startup</h1>
+      <p>Text</p>
+    </template>
     <Register />
-    <Explore />
+    <Explore>{{ 3 + 2}} <template slot="other">{{ 3 + 2 }}</template></Explore>
     <a href="https://cdn.dribbble.com/users/2530765/screenshots/6967953/attachments/1474198/custom___1.jpg">Example</a>
     <v-btn color="success">Success</v-btn>
   </div>

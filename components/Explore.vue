@@ -1,5 +1,5 @@
 <template>
-  <button class="button" outlined color="indigo">Explore now</button>
+  <button class="button"><slot>Default content</slot> <slot name="other">Other content</slot></button>
 </template>
 
 <script>
