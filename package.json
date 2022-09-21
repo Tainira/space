@@ -16,7 +16,7 @@
     "@mdi/font": "^3.6.95",
     "nuxt": "^2.0.0",
     "roboto-fontface": "*",
-    "vuetify": "^2.0.15"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
