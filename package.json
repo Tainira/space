@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@mdi/font": "^3.6.95",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.9.2",
     "roboto-fontface": "*",
     "vuetify": "^2.0.15"
   },
@@ -22,7 +22,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^4.19.1",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-loader": "^2.1.1",
+    "eslint-loader": "^4.0.2",
     "eslint-plugin-vue": "^4.0.0",
     "vue-cli-plugin-vuetify": "^0.6.3"
   }
